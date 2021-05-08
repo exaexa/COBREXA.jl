@@ -26,20 +26,21 @@ model = load_model(CoreModel, "iML1515.json")
 # ## Describe the variants
 # Each variant is described by the substrate it consumes for energy/carbon
 
-variants = ["glc__D_e", 
-            "xyl__D_e",
-            "fru_e",
-            "man_e",
-            "gal_e",
-            "tre_e",
-            "malt_e",
-            "lcts_e",
-            "fuc__L_e",
-            "arab__L_e",
-            "ac_e",
-            "etoh_e",
-            "lac__D_e"
-            ]
+variants = [
+    "glc__D_e",
+    "xyl__D_e",
+    "fru_e",
+    "man_e",
+    "gal_e",
+    "tre_e",
+    "malt_e",
+    "lcts_e",
+    "fuc__L_e",
+    "arab__L_e",
+    "ac_e",
+    "etoh_e",
+    "lac__D_e",
+]
 
 n_models = length(variants) # number of different models to construct and merge
 
@@ -183,9 +184,13 @@ community_model = CoreModel(S, b, c, lbs, ubs, rxn_ids, met_ids)
 # rates are inspected, as well as the environmental exchanges of the variant
 # metabolites. 
 
-d = flux_balance_analysis_dict(community_model, Tulip.Optimizer; modifications = [change_optimizer_attribute("IPM_IterationsLimit", 1000)])
+d = flux_balance_analysis_dict(
+    community_model,
+    Tulip.Optimizer;
+    modifications = [change_optimizer_attribute("IPM_IterationsLimit", 1000)],
+)
 
-bof_rxn_inds = findall(x-> occursin("BIOMASS_Ec_iML1515_core", x), rxn_ids)
+bof_rxn_inds = findall(x -> occursin("BIOMASS_Ec_iML1515_core", x), rxn_ids)
 ## print the growth rate of each variant, should be the same
 for obj_id in rxn_ids[bof_rxn_inds]
     println(obj_id, ": ", d[obj_id])
@@ -193,7 +198,7 @@ end
 
 # 
 ## Print the substrate uptake associated with each variant
-for n in 1:n_models
-    env_ex = "EX_"*variants[n]*"_org_$(variants[n])"
+for n = 1:n_models
+    env_ex = "EX_" * variants[n] * "_org_$(variants[n])"
     println(env_ex, ": ", d[env_ex])
 end
