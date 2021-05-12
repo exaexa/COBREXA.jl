@@ -64,7 +64,7 @@ function hit_and_run(
         optimizer;
         modifications = modifications,
         workers = workers, # parallel
-        warmup_points = warmup_indices
+        warmup_points = warmup_indices,
     )
 
     # load warmup points to workers
@@ -74,7 +74,14 @@ function hit_and_run(
 
     # do in parallel! 
     samples = dpmap(
-        x -> :($COBREXA._serial_hit_and_run(cobrexa_ws, cobrexa_lbs, cobrexa_ubs, $samplesize, $keepevery, $N)),
+        x -> :($COBREXA._serial_hit_and_run(
+            cobrexa_ws,
+            cobrexa_lbs,
+            cobrexa_ubs,
+            $samplesize,
+            $keepevery,
+            $N,
+        )),
         CachingPool(workers),
         1:nchains,
     )
