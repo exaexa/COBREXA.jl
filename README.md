@@ -133,6 +133,6 @@ PerMedCoE project ([permedcoe.eu](https://www.permedcoe.eu/)) agreement no. 9517
 <!--acknowledgements_end-->
 
 <!--ack_logos_begin-->
-<img src="https://lcsb-biocore.github.io/assets/cobrexa.svg" alt="COBREXA logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/unilu.svg" alt="Uni.lu logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/lcsb.svg" alt="LCSB logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/hhu.svg" alt="HHU logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/qtb.svg" alt="QTB logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/permedcoe.svg" alt="PerMedCoE logo" height="64px">
+<img src="https://lcsb-biocore.github.io/COBREXA.jl/stable/assets/cobrexa.svg" alt="COBREXA logo" height="64px">   <img src="https://lcsb-biocore.github.io/COBREXA.jl/stable/assets/unilu.svg" alt="Uni.lu logo" height="64px">   <img src="https://lcsb-biocore.github.io/COBREXA.jl/stable/assets/lcsb.svg" alt="LCSB logo" height="64px">   <img src="https://lcsb-biocore.github.io/COBREXA.jl/stable/assets/hhu.svg" alt="HHU logo" height="64px">   <img src="https://lcsb-biocore.github.io/COBREXA.jl/stable/assets/qtb.svg" alt="QTB logo" height="64px">   <img src="https://lcsb-biocore.github.io/COBREXA.jl/stable/assets/permedcoe.svg" alt="PerMedCoE logo" height="64px">
 <!--ack_logos_end-->
 
