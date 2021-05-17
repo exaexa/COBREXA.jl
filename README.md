@@ -130,7 +130,9 @@ Heine University in Düsseldorf ([qtb.hhu.de](https://www.qtb.hhu.de/)).
 
 The development was supported by European Union's Horizon 2020 Programme under
 PerMedCoE project ([permedcoe.eu](https://www.permedcoe.eu/)) agreement no. 951773.
-
-<img src="https://lcsb-biocore.github.io/assets/cobrexa.svg" alt="COBREXA logo" style="height:8ex;width:auto">   <img src="https://lcsb-biocore.github.io/assets/unilu.svg" alt="Uni.lu logo" style="height:8ex;width:auto">   <img src="https://lcsb-biocore.github.io/assets/lcsb.svg" alt="LCSB logo" style="height:8ex;width:auto">   <img src="https://lcsb-biocore.github.io/assets/hhu.svg" alt="HHU logo" style="height:8ex;width:auto">   <img src="https://lcsb-biocore.github.io/assets/qtb.svg" alt="QTB logo" style="height:8ex;width:auto">   <img src="https://lcsb-biocore.github.io/assets/permedcoe.svg" alt="PerMedCoE logo" style="height:8ex;width:auto">
 <!--acknowledgements_end-->
+
+<!--ack_logos_begin-->
+<img src="https://lcsb-biocore.github.io/assets/cobrexa.svg" alt="COBREXA logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/unilu.svg" alt="Uni.lu logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/lcsb.svg" alt="LCSB logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/hhu.svg" alt="HHU logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/qtb.svg" alt="QTB logo" height="64px">   <img src="https://lcsb-biocore.github.io/assets/permedcoe.svg" alt="PerMedCoE logo" height="64px">
+<!--ack_logos_end-->
 
